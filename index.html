@@ -16,28 +16,36 @@
         </div>
         <div class="middle-section">
             <p>Let's do this!</p>
-            <form action="#" id="form">
+            <form action="/" id="form">
                 <div class="input">
                     <label for="first-name">FIRST NAME</label>
-                    <input type="text">
+                    <input type="text" id="first-name" name="first-name" placeholder="Enter your name" pattern="[a-z]{5}" required>
+                    <div class="error">error</div>
                 </div>
                 <div class="input">
                     <label for="last-name">LAST NAME</label>
-                    <input type="text">
+                    <input type="text" id="last-name" name="last-name" placeholder="Enter your name" required>
+                    <div class="error">error</div>
                 </div>
                 <div class="input">
                     <label for="email">EMAIL</label>
-                    <input type="text">
+                    <input type="email" id="email" name="email" placeholder="Enter your name" required>
+                    <div class="error">error</div>
                 </div>
                 <div class="input">
                     <label for="phone-number">PHONE NUMBER</label>
-                    <input type="text"></div>
+                    <input type="tel" id="phone-number" name="phone-number" placeholder="Enter your name" required>
+                    <div class="error">error</div>
+                </div>
                 <div class="input">
                     <label for="password">PASSWORD</label>
-                    <input type="text"></div>
+                    <input type="password" id="pwd" name="pwd" placeholder="Enter your name" required>
+                    <div class="error">error</div>
+                </div>
                 <div class="input">
                     <label for="confirm-password">CONFIRM PASSWORD</label>
-                    <input type="text">
+                    <input type="password" id="cpwd" name="cpwd" placeholder="Enter your name" required>
+                    <div class="error">error</div>
                 </div>
             </form>
         </div>
